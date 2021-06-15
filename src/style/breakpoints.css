@@ -1,0 +1,83 @@
+/*-------------------*/
+    /*Mobile First*/
+/*-------------------*/
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 490px) and (max-width: 767px) {
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /*-------TODO----------*/
+    .form-todo {
+        padding: 3rem;
+    }
+
+    .form-todo input {
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    button {
+        width: 3rem;
+        height: 2.5rem;
+        border: none;
+    }
+
+    /*-------DATE----------*/
+
+    .date p {font-size: 1.3rem}
+
+    /*-------TODO----------*/
+
+    .logo img { width: 10rem}
+
+    .form-todo {
+        width: 25%;
+        margin: 20rem auto;
+        padding: 2rem;
+    }
+
+    .form-todo input {
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+    .form-todo .btn-add {
+        background-color: #788B6E;
+        color: white;
+    }
+
+    .form-todo li p{
+        max-width: 70%;
+    }
+
+
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1023px) {
+        /*-------TODO----------*/
+        /* .form-todo {
+            padding: 3rem;
+        }
+    
+        .form-todo input {
+            width: 20rem;
+            font-size: 1rem;
+        } */
+    
+
+    
+
+}
