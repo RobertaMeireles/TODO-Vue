@@ -1,4 +1,4 @@
-<template class="form-todo">
+<template>
 	<div class="form-todo">
 	<div class="logo">
 		<img src="../assets/logo.png" alt="logo TODO"/>
@@ -11,7 +11,6 @@
 			autocomplete="off"
 			placeholder="Type your Best TODO"
 		>
-
 		<button class="btn-add"><i class="fas fa-plus"></i></button>
 
 	</form>
@@ -72,16 +71,13 @@
 			}
 			function editTodo(todo,index) {
 				if(todo.done === true) {
-					alert('You are not allowed to change a completed TODO')
+					alert('You are not allowed to change a completed TODO.')
 				} else {
 					let NewInfo = prompt("Please enter with your change:")
 					if ( NewInfo == '') {
 						alert('Text can not be blank.')
-
-					}else if(todo.done === true) {
-						console.log('teste')
-						alert('Não é permitido alterar ')
-					
+					} else if (NewInfo === null) {
+						return
 					}else {
 						todos.value.content = todos.value[index]
 						todos.value.content.content = NewInfo

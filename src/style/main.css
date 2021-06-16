@@ -1,3 +1,9 @@
+/*-------------------*/
+    /*Mobile First*/
+/*-------------------*/
+
+/*-------MAIN--------*/
+
 * {box-sizing: border-box}
 
 html, body {
@@ -47,12 +53,12 @@ i {font-size: 1.3rem}
 .form-todo form {margin-bottom: 1rem}
 
 .form-todo input {
-    width: 8rem;
+    width: 9rem;
     height: 2.4rem;
     margin-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.3rem;
     border: 1px solid #C9C9C9;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .form-todo input:focus{
@@ -88,7 +94,10 @@ i {font-size: 1.3rem}
     padding-bottom: 1rem;
 }
 
-.done { color: #87827F}
+.done { 
+    color: #87827F;
+    text-decoration: line-through;
+}
 
 .form-todo li {
     display: flex;
@@ -104,104 +113,3 @@ i {font-size: 1.3rem}
 .form-todo li a{padding-right: 1rem}
 
 
-/*-------------------*/
-
-/* .date {
-    padding: 1rem 0;
-}
-
-.date p {
-    color: #E13947;
-    padding: 0.2rem 0;
-    font-size: 1.3rem;
-}
-
-/*-------TODO----------*/
-
-/* .form-todo {
-    width: 25%;
-    margin: 20rem auto;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid transparent;
-    box-shadow: 0 0 1em #87827F;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
-.logo img {
-    width: 10rem;
-}
-
-.form-todo form {
-margin-bottom: 1rem;
-}
-
-.form-todo input {
-    width: 23rem;
-    height: 2.4rem;
-    margin-right: 1rem;
-    padding-left: 1rem;
-    border: 1px solid #C9C9C9;
-    font-size: 1rem;
-
-}
-
-.form-todo input:focus{
-    outline: none;
-    border: 1px solid #C9C9C9;
-}
-
-.form-todo input::placeholder{
-    color: rgba(0,0,0,0.3);
-    font-style: italic;
-}
-
-.form-todo .btn-add {
-    background-color: #788B6E;
-    color: white;
-}
-
-.form-todo .btn-remove {
-    color: #E13947;
-}
-
-.form-todo .btn-done {
-    color: #43769F;
-}
-
-.form-todo .btn-clear {
-    display: flex;
-    justify-content: center;
-}
-
-.form-todo .btn-edit {
-    color: #F5B215;
-}
-
-.form-todo .btn-clear:hover {
-    color: #E13947;
-}
-
-
-.form-todo h2 {
-    font-weight: bold;
-    padding-bottom: 1rem;
-}
-
-.done {
-    color: #87827F;
-
-}
-
-.form-todo li span{
-    padding-right: 320px;
-    padding-bottom: 2px;
-}
-
-.form-todo li a{
-    padding-right: 1rem;
-} */

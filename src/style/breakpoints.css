@@ -3,11 +3,20 @@
 /*-------------------*/
 
 /*Small devices (landscape phones, 576px and up) */
-@media (min-width: 490px) and (max-width: 767px) {
+@media (min-width: 490px) {
 
+    /*-------TODO----------*/
+
+    .form-todo {
+        padding: 3rem;
+    }
+
+    .form-todo input {
+        width: 13rem;
+        font-size: 0.7rem;
+    }
 
 }
-
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -42,13 +51,13 @@
     .logo img { width: 10rem}
 
     .form-todo {
-        width: 25%;
-        margin: 20rem auto;
+        width: 60%;
+        margin: 10rem auto;
         padding: 2rem;
     }
 
     .form-todo input {
-        width: 20rem;
+        width: 10rem;
         font-size: 1rem;
     }
 
@@ -61,23 +70,23 @@
         max-width: 70%;
     }
 
-
 }
 
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1023px) {
+
         /*-------TODO----------*/
-        /* .form-todo {
-            padding: 3rem;
+
+        .form-todo {
+            width: 30%;
+            margin: 10rem auto;
+            padding: 1rem;
         }
     
         .form-todo input {
-            width: 20rem;
+            width: 75%;
             font-size: 1rem;
-        } */
-    
-
-    
+        }
 
 }
